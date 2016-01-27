@@ -1,0 +1,10 @@
+print("Volume Of A Rectangular Square!")
+wait = input("Press enter to begin calculations!")
+import os
+os.system("cls")
+Length = float(input("Length>"))
+Width = float(input("Width>"))
+Height = float(input("Height>"))
+
+Volume = Width*Height*Length
+print(Volume)
